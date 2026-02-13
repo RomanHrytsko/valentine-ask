@@ -8,8 +8,7 @@ const title = document.getElementById("letter-title");
 const catImg = document.getElementById("letter-cat");
 const buttons = document.getElementById("letter-buttons");
 const finalText = document.getElementById("final-text");
-const valentineSong = document.getElementById("valentine-song");
-
+const valentineSong = new Audio('./valnetine.mp3'); // Перевірте шлях!
 // Click Envelope
 
 envelope.addEventListener("click", () => {
