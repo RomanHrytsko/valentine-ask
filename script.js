@@ -8,6 +8,7 @@ const title = document.getElementById("letter-title");
 const catImg = document.getElementById("letter-cat");
 const buttons = document.getElementById("letter-buttons");
 const finalText = document.getElementById("final-text");
+const valentineSong = document.getElementById("valentine-song");
 
 // Click Envelope
 
@@ -67,6 +68,7 @@ yesBtn.addEventListener("click", () => {
     document.querySelector(".letter-window").classList.add("final");
 
     buttons.style.display = "none";
+    valentineSong.play();
 
     finalText.style.display = "block";
 });
